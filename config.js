@@ -11,11 +11,11 @@ const configs = {
         development: {
             //? Aqui deberan estar las configuraciones para la conexion con sequelize
             dialect: 'postgres',
-            host: 'localhost',
+            host: 'localhost', 
             port: 5432,
             username: 'postgres',
             password: 'root',
-            database: 'example',
+            database: 'academovies',
             define: {
                 timestamps: true, //? Nos obliga a que todas las tablas tengan la propiedad createdAt y upadtedAt
                 underscored: true,
